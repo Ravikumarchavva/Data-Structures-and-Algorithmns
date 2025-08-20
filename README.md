@@ -161,3 +161,185 @@ Graphs are a collection of nodes (or vertices) connected by edges. They can be u
 ---
 
 #  Algorithms are written in respective folders
+
+---
+
+# 🚀 Interview Preparation Structure
+
+This repository is organized by **patterns commonly asked in top tech companies** for systematic interview preparation.
+
+## 📊 **Folder Organization by Interview Frequency**
+
+| Pattern | Folder | Interview Frequency | Difficulty | Common Usage |
+|---------|---------|-------------------|------------|---------------|
+| **Arrays & Hashing** | `01_arrays_and_hashing/` | 95% | ⭐⭐⭐ | All Companies |
+| **Two Pointers** | `02_two_pointers/` | 80% | ⭐⭐⭐ | Top Companies |
+| **Sliding Window** | `03_sliding_window/` | 75% | ⭐⭐⭐ | All Companies |
+| **Stack & Queue** | `04_stack_and_queue/` | 70% | ⭐⭐ | Top Companies |
+| **Binary Search** | `05_binary_search/` | 65% | ⭐⭐⭐ | Top Companies |
+| **Linked Lists** | `06_linked_lists/` | 60% | ⭐⭐ | All Companies |
+| **Trees** | `07_trees/` | 85% | ⭐⭐⭐ | All Companies |
+| **Tries** | `08_tries/` | 40% | ⭐⭐ | Top Companies |
+| **Heap/Priority Queue** | `09_heap_priority_queue/` | 55% | ⭐⭐⭐ | All Companies |
+| **Backtracking** | `10_backtracking/` | 50% | ⭐⭐⭐ | Top Companies |
+| **Graphs** | `11_graphs/` | 70% | ⭐⭐⭐ | All Companies |
+| **Advanced Graphs** | `12_advanced_graphs/` | 30% | ⭐⭐⭐⭐ | Top Companies |
+| **Dynamic Programming** | `13_dynamic_programming/` | 60% | ⭐⭐⭐⭐ | All Companies |
+| **Greedy** | `14_greedy/` | 45% | ⭐⭐⭐ | Top Companies |
+| **Intervals** | `15_intervals/` | 40% | ⭐⭐ | All Companies |
+| **Math & Geometry** | `16_math_and_geometry/` | 25% | ⭐⭐ | Top Companies |
+| **Bit Manipulation** | `17_bit_manipulation/` | 35% | ⭐⭐ | Top Companies |
+
+## 🎯 **Study Path**
+
+### **Phase 1: Foundation (Weeks 1-4)**
+Focus on core patterns that appear in 80% of interviews:
+1. Arrays & Hashing → Two Sum, Group Anagrams
+2. Two Pointers → 3Sum, Container With Water
+3. Sliding Window → Longest Substring problems
+4. Stack & Queue → Valid Parentheses, Next Greater Element
+
+### **Phase 2: Intermediate (Weeks 5-8)**
+5. Binary Search → Rotated array problems
+6. Linked Lists → Reverse, Merge, Cycle detection
+7. Trees → Traversals, LCA, BST validation
+8. Tries → Word search, Auto-complete
+
+### **Phase 3: Advanced (Weeks 9-12)**
+9. Heap/Priority Queue → Top K problems
+10. Backtracking → N-Queens, Word Search
+11. Graphs → BFS, DFS, Connected components
+12. Advanced Graphs → Shortest path, MST
+
+### **Phase 4: Expert (Weeks 13-16)**
+13. Dynamic Programming → LIS, Edit Distance, Knapsack
+14. Greedy → Interval scheduling, Jump game
+15. Intervals → Merge intervals, Meeting rooms
+16. Math & Geometry → Matrix problems
+17. Bit Manipulation → XOR tricks, Subsets
+
+## 💡 **How to Use This Structure**
+- Each folder contains patterns and problems commonly asked across tech companies
+- Start with high-frequency patterns first
+- Practice 2-3 problems daily from current pattern
+- Move to next pattern only after mastering current one
+
+---
+
+# DSA Patterns Checklist
+
+### **Phase 1: Foundation (Weeks 1-4)**
+- [ ] **01. Arrays & Hashing** (95% frequency)
+  - [ ] Two Sum variants mastered
+  - [ ] Hash map optimization techniques learned
+  - [ ] Frequency counting patterns practiced
+  - [ ] Completed 15+ problems
+  
+- [ ] **02. Two Pointers** (80% frequency)
+  - [ ] Opposite direction pointers mastered
+  - [ ] Same direction pointers practiced
+  - [ ] 3Sum/4Sum problems solved
+  - [ ] Completed 12+ problems
+
+- [ ] **03. Sliding Window** (75% frequency)
+  - [ ] Fixed size window problems solved
+  - [ ] Variable size window patterns mastered
+  - [ ] Substring optimization techniques learned
+  - [ ] Completed 10+ problems
+
+- [ ] **04. Stack & Queue** (70% frequency)
+  - [ ] Basic stack operations mastered
+  - [ ] Monotonic stack patterns learned
+  - [ ] Queue and deque usage practiced
+  - [ ] Completed 8+ problems
+
+### **Phase 2: Intermediate (Weeks 5-8)**
+- [ ] **05. Binary Search** (65% frequency)
+  - [ ] Classic binary search template mastered
+  - [ ] Search in rotated arrays solved
+  - [ ] Binary search on answer practiced
+  - [ ] Completed 10+ problems
+
+- [ ] **06. Linked Lists** (60% frequency)
+  - [ ] Pointer manipulation techniques mastered
+  - [ ] Cycle detection algorithms learned
+  - [ ] List reversal patterns practiced
+  - [ ] Completed 8+ problems
+
+- [ ] **07. Trees** (85% frequency)
+  - [ ] Tree traversal methods mastered
+  - [ ] BST properties and operations learned
+  - [ ] Tree construction problems solved
+  - [ ] Completed 15+ problems
+
+- [ ] **08. Tries** (40% frequency)
+  - [ ] Trie data structure implemented
+  - [ ] Word search algorithms mastered
+  - [ ] Prefix matching patterns learned
+  - [ ] Completed 6+ problems
+
+### **Phase 3: Advanced (Weeks 9-12)**
+- [ ] **09. Heap/Priority Queue** (55% frequency)
+  - [ ] Min/Max heap operations mastered
+  - [ ] Top K problems patterns learned
+  - [ ] Two heaps technique practiced
+  - [ ] Completed 10+ problems
+
+- [ ] **10. Backtracking** (50% frequency)
+  - [ ] Backtracking template mastered
+  - [ ] N-Queens problem solved
+  - [ ] Subset generation practiced
+  - [ ] Completed 8+ problems
+
+- [ ] **11. Graphs** (70% frequency)
+  - [ ] DFS/BFS algorithms mastered
+  - [ ] Graph representation methods learned
+  - [ ] Connected components problems solved
+  - [ ] Completed 12+ problems
+
+- [ ] **12. Advanced Graphs** (45% frequency)
+  - [ ] Dijkstra's algorithm implemented
+  - [ ] Union-Find data structure mastered
+  - [ ] MST algorithms learned
+  - [ ] Completed 8+ problems
+
+### **Phase 4: Expert (Weeks 13-16)**
+- [ ] **13. Dynamic Programming** (60% frequency)
+  - [ ] 1D DP patterns mastered
+  - [ ] 2D DP problems solved
+  - [ ] Optimization techniques learned
+  - [ ] Completed 15+ problems
+
+- [ ] **14. Greedy** (40% frequency)
+  - [ ] Greedy choice property understood
+  - [ ] Interval scheduling mastered
+  - [ ] Optimization problems solved
+  - [ ] Completed 8+ problems
+
+- [ ] **15. Intervals** (60% frequency)
+  - [ ] Interval merging patterns mastered
+  - [ ] Meeting room problems solved
+  - [ ] Calendar systems implemented
+  - [ ] Completed 10+ problems
+
+- [ ] **16. Math & Geometry** (25% frequency)
+  - [ ] Number theory basics learned
+  - [ ] Matrix operations mastered
+  - [ ] Geometric algorithms practiced
+  - [ ] Completed 6+ problems
+
+- [ ] **17. Bit Manipulation** (30% frequency)
+  - [ ] Bitwise operations mastered
+  - [ ] XOR properties learned
+  - [ ] Bit manipulation tricks practiced
+  - [ ] Completed 8+ problems
+
+## 🎯 **Overall Progress Tracking**
+
+### **Milestones**
+- [ ] **Foundation Complete**: All Phase 1 patterns
+- [ ] **Intermediate Complete**: All Phase 2 patterns
+- [ ] **Advanced Complete**: All Phase 3 patterns
+- [ ] **Expert Complete**: All Phase 4 patterns
+
+---
