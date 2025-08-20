@@ -87,9 +87,86 @@ Hash maps are a data structure that stores key-value pairs, allowing for fast re
 2. Counting occurrences of elements (e.g., word frequency).
 3. Grouping anagrams or similar items.
 
+## 6. Linked Lists
+
+Linked lists are a linear data structure where elements are stored in nodes, and each node points to the next node in the sequence. This allows for efficient insertion and deletion of elements.
+
+*Advantages*
+
+1. Dynamic size: Linked lists can easily grow and shrink in size by adding or removing nodes.
+2. Efficient insertions/deletions: Inserting or deleting elements does not require shifting other elements, as in arrays.
+3. No pre-allocation: Linked lists do not require a fixed size, allowing for more efficient memory usage.
+
+*Disadvantages*
+
+1. Memory overhead: Each node requires additional memory for storing a pointer to the next node.
+2. Sequential access: Linked lists do not support random access, making it slower to access elements by index.
+3. Cache locality: Linked lists may have poor cache performance due to their non-contiguous memory allocation.
+
+*Usage:*
+
+1. Implementing stacks and queues.
+2. Maintaining a list of items with frequent insertions/deletions.
+
+## 7. Trees
+
+Trees are hierarchical data structures consisting of nodes connected by edges. Each tree has a root node, and every node can have zero or more child nodes.
+
+*Advantages*
+1. Hierarchical structure: Trees naturally represent hierarchical relationships, making them ideal for certain applications.
+2. Efficient searching: Balanced trees (e.g., AVL trees, Red-Black trees) provide O(log n) search time.
+3. In-order traversal: Trees can be traversed in a way that retrieves elements in sorted order.
+
+*Disadvantages*
+1. Complexity: Implementing and maintaining balanced trees can be complex.
+2. Memory usage: Trees may require more memory than simpler data structures due to the overhead of storing pointers.
+
+*Usage:*
+
+1. Traversing from top to bottom (e.g., level-order traversal).
+2. Representing hierarchical relationships (e.g., file systems, organization charts).
+3. Implementing search trees (e.g., binary search trees, AVL trees).
+
+## 8. Graphs
+
+Graphs are a collection of nodes (or vertices) connected by edges. They can be used to represent various real-world systems, such as social networks, transportation systems, and communication networks.
+
+*Advantages:*
+
+1. Versatile representation: Graphs can represent a wide range of relationships and structures.
+2. Efficient traversal: Graph algorithms (e.g., BFS, DFS) can quickly explore large networks.
+3. Pathfinding: Graphs can be used to find the shortest path between nodes (e.g., Dijkstra's algorithm).
+
+*Disadvantages:*
+
+1. Complexity: Graph algorithms can be more complex to implement and understand than simpler data structures.
+2. Memory usage: Graphs can require more memory to store edges and nodes, especially for dense graphs.
+3. Performance: Some graph algorithms may have high time complexity, making them unsuitable for large graphs.
+
+*Usage:*
+
+1. Representing networks (e.g., social networks, transportation networks).
+2. Solving optimization problems (e.g., shortest path, minimum spanning tree).
+3. Modeling relationships between entities (e.g., web pages, citations).
+
 ---
 
 <span style='color:skyblue'>Note</span>: Rule of thumb
 
 - Input ~ 10^4: use O(n^2) algorithms or less.
 - Input ~ 10^5: use O(n log n) algorithms or less.
+
+---
+
+# Algorithms
+
+## 1. Breadth-First Search (BFS)
+
+BFS is an algorithm for traversing or searching tree or graph data structures. It starts at a selected node (often called the "root") and explores all of its neighbours at the present depth and then moves on to nodes at the next depth level.
+
+At the heart BFS uses a queue to keep track of next nodes to visit.
+
+*Advantages:*
+
+1. Finds the shortest number of steps.
+2. Finds all possible paths.
