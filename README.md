@@ -124,8 +124,9 @@ Trees are hierarchical data structures consisting of nodes connected by edges. E
 *Usage:*
 
 1. Traversing from top to bottom (e.g., level-order traversal).
-2. Representing hierarchical relationships (e.g., file systems, organization charts).
-3. Implementing search trees (e.g., binary search trees, AVL trees).
+2. Looking for closest match to the node (root).
+3. Representing hierarchical relationships (e.g., file systems, organization charts).
+4. Implementing search trees (e.g., binary search trees, AVL trees).
 
 ## 8. Graphs
 
@@ -146,27 +147,17 @@ Graphs are a collection of nodes (or vertices) connected by edges. They can be u
 *Usage:*
 
 1. Representing networks (e.g., social networks, transportation networks).
-2. Solving optimization problems (e.g., shortest path, minimum spanning tree).
-3. Modeling relationships between entities (e.g., web pages, citations).
+2. Structure can contain cycles or duplicates paths.
+3. Exploring possible states.
+4. Solving optimization problems (e.g., shortest path, minimum spanning tree).
+5. Modeling relationships between entities (e.g., web pages, citations).
 
 ---
 
 <span style='color:skyblue'>Note</span>: Rule of thumb
-
 - Input ~ 10^4: use O(n^2) algorithms or less.
 - Input ~ 10^5: use O(n log n) algorithms or less.
 
 ---
 
-# Algorithms
-
-## 1. Breadth-First Search (BFS)
-
-BFS is an algorithm for traversing or searching tree or graph data structures. It starts at a selected node (often called the "root") and explores all of its neighbours at the present depth and then moves on to nodes at the next depth level.
-
-At the heart BFS uses a queue to keep track of next nodes to visit.
-
-*Advantages:*
-
-1. Finds the shortest number of steps.
-2. Finds all possible paths.
+#  Algorithms are written in respective folders
