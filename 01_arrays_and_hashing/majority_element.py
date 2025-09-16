@@ -1,4 +1,5 @@
 from typing import List
+# Boyer-Moore Voting Algorithm
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         balance = 0
