@@ -11,6 +11,8 @@ class Solution:
             if (prefix_sum - k) in prefix_sum_counts:
                 count += prefix_sum_counts[prefix_sum - k]
             prefix_sum_counts[prefix_sum] = prefix_sum_counts.get(prefix_sum, 0) + 1
+
+        return count
     
 if __name__ == "__main__":
     sol = Solution()
