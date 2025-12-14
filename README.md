@@ -160,6 +160,34 @@ Graphs are a collection of nodes (or vertices) connected by edges. They can be u
 
 ---
 
+
+# Algorithms
+
+Algorithms are step by step proccedure to complete a given task.
+
+The efficiency of and algorithm is calculated by its time complexity and space complexity.
+
+1. Time Complexity: It is the measure of time taken by an algorithm to run as a function of the length of the input.
+2. Space Complexity: It is the measure of the amount of working storage an algorithm needs.
+
+Big O Notation is used to represent time and space complexity.
+
+Ideally their is a specific function f(n) that describes the time or space requirements in terms of the input size n. We use Big O notation to simplify this function by focusing on the term that grows the fastest as n increases and ignoring constant factors.
+![Big O Notation Chart](./public/bigO.png)
+
+Common Time Complexities:
+
+| Complexity | n=10 | n=100 | n=1,000 | n=10,000 | n=100,000 | n=1,000,000 |
+|------------|-------|--------|---------|----------|-----------|-------------|
+| O(1)       | 1     | 1      | 1       |        | 1        | 1         | 1           |
+| O(log n)   | 3     | 7      | 10      | 14       | 17        | 20          |
+| O(n)       | 10    | 100    | 1000    | 1,000    | 10,000    | 100,000     |
+| O(n log n) | 33    | 664    | 9,966   | 139,000  | 1,660,000 | 20,000,000  |
+| O(n^2)     | 100   | 10*3   | 10*6   | 10*8     | 10*10     | 10*12       |
+| O(n^3)     | 1,0*3 | 1,0*6  | 1,0*9  | 1,0*12   | 1,0*15    | 1,0*18      |
+| O(2^n)     | 1,024 | 1.27*10^30 | - | - | - | - |
+| O(n!)     | 3,628,800 | - | - | - | - | - |
+
 #  Algorithms are written in respective folders
 
 ---
